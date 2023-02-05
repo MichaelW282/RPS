@@ -1,0 +1,50 @@
+body {
+  text-align: center;
+  background-color: #011F3F;
+}
+
+.titles{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2rem;
+  margin:  2%;
+  color: yellow;
+}
+
+.scoring{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.5rem;
+  margin:  2%;
+  color: yellow;
+}
+
+h2{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.5rem;
+  margin:  5%;
+  color: yellow;
+}
+
+.scissors{
+  background-image: url("picture/Scissors.jpg");
+  background-repeat: no-repeat;
+}
+.rock {
+  background-image: url("picture/Rock.jpg");
+  background-repeat: no-repeat;
+}
+
+.paper {
+  background-image: url("picture/Paper.jpg");
+  background-repeat: no-repeat;
+}
+.btn {
+  display: inline-block;
+  width : 148px;
+  height: 237px;
+  border: 10px solid #404B69;
+  border-radius: 10px;
+  margin: 10px;
+}
+.pressed{
+  opacity: 0.5;
+}
